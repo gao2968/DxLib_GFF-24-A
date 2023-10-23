@@ -19,6 +19,9 @@
     <Filter Include="ゲーム処理">
       <UniqueIdentifier>{f7057e4a-221d-4c88-a799-75762fc5aa83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Weapon">
+      <UniqueIdentifier>{dcc35791-f390-4d89-ab90-41a72e95a6c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scene.h">
@@ -45,6 +48,12 @@
     <ClInclude Include="scene_game.h">
       <Filter>シーン</Filter>
     </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="kitamura_test.h">
+      <Filter>シーン</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="scene_debug.cpp">
@@ -66,6 +75,12 @@
       <Filter>ゲーム処理</Filter>
     </ClCompile>
     <ClCompile Include="scene_game.cpp">
+      <Filter>シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="kitamura_test.cpp">
       <Filter>シーン</Filter>
     </ClCompile>
   </ItemGroup>
